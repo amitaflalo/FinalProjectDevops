@@ -8,7 +8,7 @@
 <title>Amit and Yoni</title>
 </head>
 <body style="background-color:blanched almond;">
-	<h1> Today's date: <%= (new java.util.Date()).toLocaleString()%> </h1>
+	Today's date: <%= (new java.util.Date()).toLocaleString()%>
 	<h1>Welcome To Our JSP App </h1>
 	<h3>Our Details:</h3>
 	<table >
