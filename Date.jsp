@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Amit and Yoni</title>
 </head>
-<body style="background-color:blanched almond;">
+<body style="background-color:#FFF8DC;">
 	Today's date: <%= (new java.util.Date()).toLocaleString()%>
 	<h1>Welcome To Our JSP App </h1>
 	<h3>Our Details:</h3>
@@ -63,7 +63,7 @@ function myFunction() {   document.getElementById("average").value = ((parseInt(
                       }
 </script>
   <br><br> <br>
-  DevOps Course Topics:
+  <h3>DevOps Course Topics:</h3>
   <ul>
     <li>Jenkins</li>
     <li>Git</li>
