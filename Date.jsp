@@ -43,5 +43,7 @@
 			</tr>
 		</tbody>
 	</table>
+	<h2 class="text-center"> Thanks for a great semester </h2>
+	<img src="https://my33people.files.wordpress.com/2018/12/happy-new-year-glitter.jpg?w=229&h=300"/>
 </body>
 </html>
