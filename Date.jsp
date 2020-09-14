@@ -7,10 +7,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Amit and Yoni</title>
 </head>
-<body>
-	<h1>Welcome To Our App </h1>
+<body style="background-color:blanched almond;">
+	<h1> Today's date: <%= (new java.util.Date()).toLocaleString()%> </h1>
+	<h1>Welcome To Our JSP App </h1>
 	<h3>Our Details:</h3>
-	<table>
+	<table >
 		<thead>
 			<tr>
 				<th>
@@ -19,19 +20,28 @@
 				<th>
 					ID
 				</th>
+				<th>
+					City
+				</th>
+				<th>
+					Grade
+				</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
 				<td>Amit Aflalo</td>
 				<td>319020111</td>
+				<td>Rishon Lezion</td>
+				<td> <input type="number" id="grade_amit" name="grade"></td>
 			</tr>
 			<tr>
 				<td>Yonatan Yardeni</td>
 				<td>302203178</td>
+				<td>Ashkelon</td>
+				<td> <input type="number" id="grade_yoni" name="grade"></td>
 			</tr>
 		</tbody>
 	</table>
-Today's date: <%= (new java.util.Date()).toLocaleString()%>
 </body>
 </html>
