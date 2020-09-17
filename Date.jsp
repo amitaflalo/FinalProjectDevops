@@ -9,7 +9,7 @@
 </head>
 <body style="background-color:#FFF8DC;">
 	Today's date: <%= (new java.util.Date()).toLocaleString()%>
-	<h1>Welcome To Our JSP App! </h1>
+	<h1>Welcome To Our JSP App!!!!!!!!!!!!!!!!! </h1>
 	<h3>Our Details:</h3>
 	<table >
 		<thead>
